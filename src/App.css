@@ -1,0 +1,45 @@
+*{
+  background-color: #242424;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+#calculator{
+  border: 4px double white;
+  width: 40%;
+  height: 70vh;
+  margin: 90px auto;
+  border-radius: 10px;
+}
+input{
+  display: block;
+  width: 95%;
+  height: 15%;
+  background: #000;
+  margin: 5px auto;
+  border: none;
+  border-radius: 10px;
+  text-align: end;
+  padding: 10px;
+  font-size: 30px;
+}
+#buttons{
+  width: 95%;
+  height: 80%;
+  margin: 5px auto;
+  padding: 10px 0;
+}
+.p{
+  width: 100%;
+  padding: 0 5px;
+  height: 20%;
+}
+button{
+  height: 100%;
+  width: 24%;
+}
+#clear , #equal{
+  width: 48%;
+}
